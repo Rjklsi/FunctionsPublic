@@ -16,6 +16,8 @@
 		048204F7263FFE3900093ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048204F5263FFE3900093ADF /* Main.storyboard */; };
 		048204F9263FFE3A00093ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048204F8263FFE3A00093ADF /* Assets.xcassets */; };
 		048204FC263FFE3A00093ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048204FA263FFE3A00093ADF /* LaunchScreen.storyboard */; };
+		0494647B267A0D3700F2F7C1 /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494647A267A0D3700F2F7C1 /* Webservices.swift */; };
+		0494647E267A10CE00F2F7C1 /* TabBarCenterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494647D267A10CE00F2F7C1 /* TabBarCenterButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		048204F8263FFE3A00093ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048204FB263FFE3A00093ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048204FD263FFE3A00093ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0494647A267A0D3700F2F7C1 /* Webservices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
+		0494647D267A10CE00F2F7C1 /* TabBarCenterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCenterButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				0402DF4B26400415007B0D4E /* Functions.swift */,
 				0402DF6526400A64007B0D4E /* EncrypDecryptAlgo.swift */,
 				0402DF6826400E2C007B0D4E /* LocationClass.swift */,
+				0494647A267A0D3700F2F7C1 /* Webservices.swift */,
+				0494647D267A10CE00F2F7C1 /* TabBarCenterButton.swift */,
 			);
 			path = CommonFunctions;
 			sourceTree = "<group>";
@@ -146,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0494647B267A0D3700F2F7C1 /* Webservices.swift in Sources */,
 				048204F4263FFE3900093ADF /* ViewController.swift in Sources */,
 				0402DF6926400E2C007B0D4E /* LocationClass.swift in Sources */,
 				0402DF6626400A64007B0D4E /* EncrypDecryptAlgo.swift in Sources */,
+				0494647E267A10CE00F2F7C1 /* TabBarCenterButton.swift in Sources */,
 				048204F0263FFE3900093ADF /* AppDelegate.swift in Sources */,
 				048204F2263FFE3900093ADF /* SceneDelegate.swift in Sources */,
 				0402DF4C26400415007B0D4E /* Functions.swift in Sources */,

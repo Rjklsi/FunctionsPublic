@@ -39,7 +39,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //*****************
         ///localization
         //language handle
-       
+        if UserDefaults.standard.value(forKey: "AppleLanguages") != nil {
+            if let str = UserDefaults.standard.value(forKey: "AppleLanguages") as? String{
+                self.selectedLanguage = "\(str)"
+                self.appLanguage = Functions.getIdBySyllable(Syllable: self.selectedLanguage)
+                print(self.selectedLanguage)
+            }else if let arrObj = UserDefaults.standard.value(forKey: "AppleLanguages") as? [String]{
+                if arrObj.count >= 0{
+                self.selectedLanguage = "\(arrObj[0])"
+                    self.appLanguage = Functions.getIdBySyllable(Syllable: self.selectedLanguage)
+                print(self.selectedLanguage)
+                }
+            }
+        }else{
+            self.appLanguage = "en"//Functions.getIdBySyllable(Syllable: "en")
+        }
         
         
         
