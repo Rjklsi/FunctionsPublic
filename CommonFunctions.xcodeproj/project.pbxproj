@@ -18,6 +18,7 @@
 		048204FC263FFE3A00093ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048204FA263FFE3A00093ADF /* LaunchScreen.storyboard */; };
 		0494647B267A0D3700F2F7C1 /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494647A267A0D3700F2F7C1 /* Webservices.swift */; };
 		0494647E267A10CE00F2F7C1 /* TabBarCenterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494647D267A10CE00F2F7C1 /* TabBarCenterButton.swift */; };
+		04946481267A185400F2F7C1 /* otpWithAutoFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04946480267A185400F2F7C1 /* otpWithAutoFill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		048204FD263FFE3A00093ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0494647A267A0D3700F2F7C1 /* Webservices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
 		0494647D267A10CE00F2F7C1 /* TabBarCenterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCenterButton.swift; sourceTree = "<group>"; };
+		04946480267A185400F2F7C1 /* otpWithAutoFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otpWithAutoFill.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				0402DF6826400E2C007B0D4E /* LocationClass.swift */,
 				0494647A267A0D3700F2F7C1 /* Webservices.swift */,
 				0494647D267A10CE00F2F7C1 /* TabBarCenterButton.swift */,
+				04946480267A185400F2F7C1 /* otpWithAutoFill.swift */,
 			);
 			path = CommonFunctions;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				0494647B267A0D3700F2F7C1 /* Webservices.swift in Sources */,
 				048204F4263FFE3900093ADF /* ViewController.swift in Sources */,
+				04946481267A185400F2F7C1 /* otpWithAutoFill.swift in Sources */,
 				0402DF6926400E2C007B0D4E /* LocationClass.swift in Sources */,
 				0402DF6626400A64007B0D4E /* EncrypDecryptAlgo.swift in Sources */,
 				0494647E267A10CE00F2F7C1 /* TabBarCenterButton.swift in Sources */,
